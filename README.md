@@ -159,7 +159,7 @@ This function checks whether the `Form` has the topmost extended style (`WS_EX_T
 ### `FormExtensions_LetTopMost`
 
 ```vb
-Public Function FormExtensions_LetTopMost(Form As Form, State As Boolean) As Long
+Public Function FormExtensions_LetTopMost(ByVal Form As Form, ByVal State As Boolean) As Long
 ```
 
 This function allows you to set or clear the topmost attribute for the given `Form` based on the provided `State` (`True` for set, `False` for clear).

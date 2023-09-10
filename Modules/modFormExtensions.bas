@@ -193,7 +193,7 @@ Public Function FormExtensions_GetTopMost(ByVal Form As Form) As Boolean
     FormExtensions_GetTopMost = (lngStyle And FormExtensions_WS_EX_TOPMOST) <> 0
 End Function
 
-Public Function FormExtensions_LetTopMost(Form As Form, State As Boolean) As Long
+Public Function FormExtensions_LetTopMost(ByVal Form As Form, ByVal State As Boolean) As Long
 
     If State Then
 
