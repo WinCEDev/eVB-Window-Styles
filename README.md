@@ -17,7 +17,7 @@ End Sub
 
 ![A screenshot of the example application, showing all options as inactive.](https://github.com/WinCEDev/eVB-Window-Styles/blob/main/Screenshots/app.png?raw=1)
 
-![A screenshot of the example application, with the Minimize, Maximize and Resizable options selected.](https://github.com/WinCEDev/eVB-Window-Styles/blob/main/Screenshots/app.png?raw=1)
+![A screenshot of the example application, with the Minimize, Maximize and Resizable options selected.](https://github.com/WinCEDev/eVB-Window-Styles/blob/main/Screenshots/app_minmaxresize.png?raw=1)
 
 ## Functions
 
