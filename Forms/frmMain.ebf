@@ -1,0 +1,297 @@
+VERSION 5.00
+Begin VB.Form MainForm 
+   BorderStyle     =   3  'Fixed Dialog
+   Caption         =   "Window Styles"
+   ClientHeight    =   2775
+   ClientLeft      =   -15
+   ClientTop       =   270
+   ClientWidth     =   3855
+   ScaleHeight     =   2775
+   ScaleWidth      =   3855
+   ShowInTaskbar   =   0   'False
+   Begin VBCE.Frame Frame3 
+      Height          =   615
+      Left            =   120
+      TabIndex        =   8
+      Top             =   2040
+      Width           =   3615
+      _cx             =   6376
+      _cy             =   1085
+      Appearance      =   1
+      BackColor       =   -2147483633
+      BorderStyle     =   1
+      Caption         =   "Miscellaneous"
+      Enabled         =   -1  'True
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   -2147483640
+      ClipControls    =   -1  'True
+      Begin VBCE.CheckBox chkAlwaysOnTop 
+         Height          =   255
+         Left            =   120
+         TabIndex        =   9
+         Top             =   240
+         Width           =   3375
+         _cx             =   5953
+         _cy             =   450
+         Appearance      =   1
+         BackColor       =   -2147483633
+         Caption         =   "Always On Top"
+         Enabled         =   -1  'True
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   -2147483640
+         Alignment       =   0
+         Value           =   0
+      End
+   End
+   Begin VBCE.Frame Frame1 
+      Height          =   1095
+      Left            =   120
+      TabIndex        =   1
+      Top             =   840
+      Width           =   1815
+      _cx             =   3201
+      _cy             =   1931
+      Appearance      =   1
+      BackColor       =   -2147483633
+      BorderStyle     =   1
+      Caption         =   "Window Styles"
+      Enabled         =   -1  'True
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   -2147483640
+      ClipControls    =   -1  'True
+      Begin VBCE.CheckBox chkResizable 
+         Height          =   255
+         Left            =   120
+         TabIndex        =   4
+         Top             =   720
+         Width           =   1575
+         _cx             =   2778
+         _cy             =   450
+         Appearance      =   1
+         BackColor       =   -2147483633
+         Caption         =   "Resizable"
+         Enabled         =   -1  'True
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   -2147483640
+         Alignment       =   0
+         Value           =   0
+      End
+      Begin VBCE.CheckBox chkMaximize 
+         Height          =   255
+         Left            =   120
+         TabIndex        =   3
+         Top             =   480
+         Width           =   1575
+         _cx             =   2778
+         _cy             =   450
+         Appearance      =   1
+         BackColor       =   -2147483633
+         Caption         =   "Maximize"
+         Enabled         =   -1  'True
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   -2147483640
+         Alignment       =   0
+         Value           =   0
+      End
+      Begin VBCE.CheckBox chkMinimize 
+         Height          =   255
+         Left            =   120
+         TabIndex        =   2
+         Top             =   240
+         Width           =   1575
+         _cx             =   2778
+         _cy             =   450
+         Appearance      =   1
+         BackColor       =   -2147483633
+         Caption         =   "Minimize"
+         Enabled         =   -1  'True
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   -2147483640
+         Alignment       =   0
+         Value           =   0
+      End
+   End
+   Begin VBCE.Frame Frame2 
+      Height          =   1095
+      Left            =   2040
+      TabIndex        =   5
+      Top             =   840
+      Width           =   1695
+      _cx             =   2990
+      _cy             =   1931
+      Appearance      =   1
+      BackColor       =   -2147483633
+      BorderStyle     =   1
+      Caption         =   "Extended"
+      Enabled         =   -1  'True
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   -2147483640
+      ClipControls    =   -1  'True
+      Begin VBCE.CheckBox chkOKButton 
+         Height          =   255
+         Left            =   120
+         TabIndex        =   6
+         Top             =   240
+         Width           =   1455
+         _cx             =   2566
+         _cy             =   450
+         Appearance      =   1
+         BackColor       =   -2147483633
+         Caption         =   "OK Button"
+         Enabled         =   -1  'True
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   -2147483640
+         Alignment       =   0
+         Value           =   0
+      End
+      Begin VBCE.CheckBox chkToolWindow 
+         Height          =   255
+         Left            =   120
+         TabIndex        =   7
+         Top             =   480
+         Width           =   1455
+         _cx             =   2566
+         _cy             =   450
+         Appearance      =   1
+         BackColor       =   -2147483633
+         Caption         =   "Tool Window"
+         Enabled         =   -1  'True
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Tahoma"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   -2147483640
+         Alignment       =   0
+         Value           =   0
+      End
+   End
+   Begin VBCE.Label lblInstructions 
+      Height          =   585
+      Left            =   120
+      TabIndex        =   0
+      Top             =   120
+      Width           =   3615
+      _cx             =   6376
+      _cy             =   1032
+      Appearance      =   1
+      AutoSize        =   -1  'True
+      BackColor       =   -2147483633
+      BackStyle       =   1
+      BorderStyle     =   0
+      Caption         =   $"frmMain.frx":0000
+      Enabled         =   -1  'True
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   -2147483640
+      Alignment       =   0
+      UseMnemonic     =   -1  'True
+      WordWrap        =   -1  'True
+   End
+End
+Attribute VB_Name = "MainForm"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Explicit
+
+Private Sub chkMaximize_Click()
+    FormExtensions_LetMaximizeBox Me, Not FormExtensions_GetMaximizeBox(Me)
+End Sub
+
+Private Sub chkMinimize_Click()
+    FormExtensions_LetMinimizeBox Me, Not FormExtensions_GetMinimizeBox(Me)
+End Sub
+
+Private Sub chkResizable_Click()
+    FormExtensions_LetResizable Me, Not FormExtensions_GetResizable(Me)
+End Sub
+
+Private Sub chkOKButton_Click()
+    FormExtensions_LetOKButton Me, Not FormExtensions_GetOKButton(Me)
+End Sub
+
+Private Sub chkToolWindow_Click()
+    FormExtensions_LetToolWindow Me, Not FormExtensions_GetToolWindow(Me)
+End Sub
+
+Private Sub chkAlwaysOnTop_Click()
+    FormExtensions_LetTopMost Me, Not FormExtensions_GetTopMost(Me)
+End Sub
+
